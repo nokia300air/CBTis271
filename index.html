@@ -1,6 +1,6 @@
 <!-- index.html -->
 ---
-layout: none            # Evita layouts de Jekyll en GitHub Pages
+layout: none            # Evita que Jekyll aplique layouts
 title: Recolección de Basura CBTis 271
 ---
 
@@ -11,4 +11,154 @@ title: Recolección de Basura CBTis 271
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Programa de recolección de residuos CBTis 271 | Cd. Victoria, Tamaulipas">
   <meta property="og:title" content="Recolección de Basura CBTis 271">
-  <meta property="og:description" content="Súmate al programa de manejo responsable de residuos en nuestro plantel.
+  <meta property="og:description" content="Súmate al programa de manejo responsable de residuos en nuestro plantel.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://<TU-USUARIO>.github.io/<TU-REPO>/">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome (kit) -->
+  <script src="https://kit.fontawesome.com/xxxxxxxx.js" crossorigin="anonymous" defer></script>
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Recolección de Basura CBTis 271</title>
+</head>
+
+<body>
+  <!-- Enlace “skip” para accesibilidad -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- =====  HEADER  ===== -->
+  <header class="header" role="banner">
+    <div class="container flex header__inner">
+      <a href="#inicio" class="logo" aria-label="Inicio">
+        <!-- Coloca aquí tu <img src="assets/logo.svg" alt="CBTis 271"> -->
+        CBTis 271
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Menú principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#como-ayudar">Cómo ayudar</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =====  MAIN  ===== -->
+  <main id="main-content">
+    <!-- Hero / Inicio -->
+    <section id="inicio" class="hero">
+      <div class="container hero__content">
+        <h1>Recolección de Basura CBTis 271</h1>
+        <p class="subtitle">Sumérgete y participa</p>
+        <a href="#como-ayudar" class="btn-primary">¡Únete ahora!</a>
+      </div>
+    </section>
+
+    <!-- Objetivos -->
+    <section id="objetivos" class="section section--alt">
+      <div class="container">
+        <h2>Objetivos</h2>
+        <ul class="goals">
+          <li class="goal">
+            <!-- Icono hoja -->
+            <svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C8 2 2 4 2 12s6 10 10 10 10-2 10-10S16 2 12 2Zm1 17H11v-2h2v2Zm0-4H11V7h2v8Z"/>
+            </svg>
+            <span>Reducir los residuos sólidos en un 30 %.</span>
+          </li>
+          <li class="goal">
+            <!-- Icono reciclaje -->
+            <svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 5 5 7h3v4h2V7l-1-2H6zm9 0 1 2h-3v4h-2V7l1-2h3zm-4 14h2l1-2v-4h-2v4h-1l-1 2zm-3-8H5l-1 2 1 2h3V11zm9 0h3l1 2-1 2h-3V11z"/>
+            </svg>
+            <span>Fomentar la separación responsable.</span>
+          </li>
+          <li class="goal">
+            <!-- Icono megáfono -->
+            <svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 10v4h2l4 4V6L5 10H3zm13 0V4l6 6-6 6v-6h-5v-2h5z"/>
+            </svg>
+            <span>Concienciar a toda la comunidad escolar.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cómo ayudar -->
+    <section id="como-ayudar" class="section">
+      <div class="container">
+        <h2>Cómo ayudar</h2>
+        <div class="steps">
+          <article class="step">
+            <span class="step__number">1</span>
+            <h3>Separa tus residuos</h3>
+            <p>Orgánicos, reciclables y no reciclables. Consulta la guía de colores.</p>
+          </article>
+
+          <article class="step">
+            <span class="step__number">2</span>
+            <h3>Acude en horario</h3>
+            <p>Lunes a viernes, 07:00 – 15:00 h en el patio cívico.</p>
+          </article>
+
+          <article class="step">
+            <span class="step__number">3</span>
+            <h3>Entrega en los puntos</h3>
+            <p>Puntos de acopio junto a la cafetería y al taller de mecánica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section--alt">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/yourFormId"
+              method="POST"
+              class="contact-form"
+              novalidate>
+          <label>
+            Nombre
+            <input type="text" name="nombre" required aria-required="true">
+          </label>
+
+          <label>
+            Correo electrónico
+            <input type="email" name="correo" required aria-required="true">
+          </label>
+
+          <label>
+            Mensaje
+            <textarea name="mensaje" rows="4" required aria-required="true"></textarea>
+          </label>
+
+          <!-- honeypot -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====  FOOTER  ===== -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>&copy; <span id="year"></span> CBTis 271 – Blvd. Adolfo López Mateos S/N, Col. Libertad, C.P. 87030, Cd. Victoria, Tamaulipas.</p>
+
+      <div class="social">
+        <a href="#" aria-label="Facebook CBTis 271"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Instagram CBTis 271"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="X / Twitter CBTis 271"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
