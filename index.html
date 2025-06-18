@@ -1,27 +1,18 @@
-<!-- index.html -->
----
-layout: none
-title: Degradación de Plásticos • CBTis 271
----
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Investigación integral sobre la degradación de plásticos con enfoque local en el CBTis 271, Cd. Victoria, Tamaulipas">
-  <meta property="og:title" content="Degradación de Plásticos • CBTis 271">
-  <meta property="og:description" content="Reporte académico y base para proyecto de aula sobre residuos poliméricos y microplásticos">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nokia300air.github.io/CBTis271/">
+  <meta name="description" content="Investigación integral sobre la degradación de plásticos con enfoque local en el CBTis 271, Cd. Victoria">
+  <title>Degradación de Plásticos • CBTis 271</title>
 
-  <!-- Google Fonts & Font Awesome (kit) -->
+  <!-- Fuentes e iconos -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/xxxxxxxx.js" crossorigin="anonymous" defer></script>
+  <!-- Si no tienes kit de Font Awesome, cambia el script por el CDN CSS: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- Hoja de estilos -->
+  <!-- Estilos -->
   <link rel="stylesheet" href="assets/styles.css">
-  <title>Degradación de Plásticos CBTis 271</title>
 </head>
 
 <body>
@@ -30,39 +21,41 @@ title: Degradación de Plásticos • CBTis 271
   <!-- Header -->
   <header>
     <div class="container header__inner">
-      <a href="#inicio" class="logo" aria-label="Inicio">CBTis 271 • Plásticos</a>
+      <a href="#inicio" class="logo">CBTis 271 • Plásticos</a>
       <nav aria-label="Menú principal">
         <ul>
           <li><a href="#problema">Problema</a></li>
           <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#hipotesis">Hipótesis</a></li>
+          <li><a href="#marco">Marco teórico</a></li>
           <li><a href="#metodologia">Metodología</a></li>
           <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#discusion">Discusión</a></li>
           <li><a href="#conclusiones">Conclusiones</a></li>
+          <li><a href="#recomendaciones">Recomendaciones</a></li>
           <li><a href="#fuentes">Fuentes</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Main -->
+  <!-- MAIN -->
   <main id="main">
 
-    <!-- Hero -->
+    <!-- HERO -->
     <section id="inicio" class="hero">
       <div class="container hero__content">
         <h1>Investigación integral sobre la degradación de plásticos</h1>
-        <p class="subtitle">Enfoque local: CBTis No. 271 – Cd. Victoria, Tamaulipas</p>
+        <p class="subtitle">Enfoque local – CBTis No. 271, Cd. Victoria</p>
         <a href="#problema" class="btn">Explorar reporte</a>
       </div>
     </section>
 
-    <!-- 1 Planteamiento del problema -->
+    <!-- 1 Problema -->
     <section id="problema" class="section">
       <div class="container">
         <h2><span class="badge">1</span> Planteamiento del problema</h2>
-        <p>
-          El CBTis 271, ubicado en la carretera Victoria-Soto la Marina km 5.5 y con la especialidad de Transformación de Plásticos, genera residuos poliméricos derivados de prácticas de taller, envolturas alimenticias y botellas PET consumidas diariamente por ~1 800 estudiantes y docentes. En ausencia de un programa formal de separación y monitoreo, estos plásticos se acumulan en papeleras mixtas y terminan en el relleno sanitario de Cd. Victoria, donde la intensa radiación solar (&gt; 5 kWh/m²-día) y las temperaturas superiores a 40 °C en verano favorecen una fotodegradación lenta que produce microplásticos y lixiviados tóxicos para el suelo y la biota local.
-        </p>
+        <p>El CBTis 271, ubicado en la carretera&nbsp;Victoria-Soto la Marina km 5.5 y con la especialidad de Transformación de Plásticos, genera residuos poliméricos derivados de prácticas de taller, envolturas alimenticias y botellas PET consumidas diariamente por ≈ 1 800 estudiantes y docentes. Sin separación formal, estos plásticos terminan en el relleno sanitario de Cd. Victoria, donde la radiación solar &gt; 5 kWh/m²-día y las temperaturas &gt; 40 °C en verano favorecen fotodegradación lenta que produce microplásticos y lixiviados tóxicos para el suelo y la biota local.</p>
       </div>
     </section>
 
@@ -72,9 +65,9 @@ title: Degradación de Plásticos • CBTis 271
         <h2><span class="badge">2</span> Objetivos</h2>
         <ol class="target-list">
           <li>Cuantificar los residuos plásticos generados en el plantel durante un semestre.</li>
-          <li>Evaluar la cinética de degradación fototérmica de PET, PE-BD y PP en condiciones reales del patio de talleres.</li>
+          <li>Evaluar la cinética de degradación fototérmica de PET, PE-BD y PP en condiciones reales.</li>
           <li>Caracterizar microplásticos y cambios fisicoquímicos mediante microscopía óptica y FTIR.</li>
-          <li>Proponer un plan de gestión que incluya reducción, reciclaje mecánico y tecnologías emergentes (irradiación por haces de electrones).</li>
+          <li>Proponer un plan de gestión con reducción, reciclaje y tecnologías emergentes (irradiación).</li>
         </ol>
       </div>
     </section>
@@ -84,7 +77,7 @@ title: Degradación de Plásticos • CBTis 271
       <div class="container">
         <h2><span class="badge">3</span> Hipótesis</h2>
         <blockquote>
-          <p>“Bajo la insolación típica de Cd. Victoria, los residuos PET desarrollarán índices de carbonilo &gt; 0.30 en 12 semanas, generando fragmentos &lt; 5 mm susceptibles de dispersarse por viento; la aplicación de técnicas de reciclaje in-situ reducirá en ≥ 60 % la formación de microplásticos en un semestre escolar”.</p>
+          <p>“Bajo la insolación típica de Cd. Victoria, los residuos PET desarrollarán índices de carbonilo &gt; 0.30 en 12 semanas, generando fragmentos &lt; 5 mm; la aplicación de reciclaje in-situ reducirá en ≥ 60 % la formación de microplásticos en un semestre”.</p>
         </blockquote>
       </div>
     </section>
@@ -95,13 +88,11 @@ title: Degradación de Plásticos • CBTis 271
         <h2><span class="badge">4</span> Marco teórico abreviado</h2>
         <div class="table-wrapper">
           <table class="table">
-            <thead>
-              <tr><th>Mecanismo</th><th>Descripción</th><th>Tiempos típicos*</th></tr>
-            </thead>
+            <thead><tr><th>Mecanismo</th><th>Descripción</th><th>Tiempos típicos*</th></tr></thead>
             <tbody>
-              <tr><td>Fotodegradación</td><td>Ruptura de enlaces C–C por UV; propagación de radicales libres.</td><td>PET 12–18 meses (superficie); PE hasta 10 años</td></tr>
-              <tr><td>Oxidación térmica</td><td>Autocatalítica &gt; 60 °C; produce carbonilos.</td><td>4-6 meses en plásticos negros expuestos</td></tr>
-              <tr><td>Biodegradación</td><td>Enzimas microbianas atacan cadenas oxidadas; relevante en PLA.</td><td>&gt; 5 años (PET recalcitrante)</td></tr>
+              <tr><td>Fotodegradación</td><td>Ruptura de enlaces C–C por UV; radicales libres.</td><td>PET 12-18 meses; PE&nbsp;hasta 10 años</td></tr>
+              <tr><td>Oxidación térmica</td><td>Autocatalítica &gt; 60 °C; genera carbonilos.</td><td>4-6 meses en plásticos negros</td></tr>
+              <tr><td>Biodegradación</td><td>Enzimas microbianas atacan cadenas oxidadas.</td><td>&gt; 5 años (PET recalcitrante)</td></tr>
             </tbody>
           </table>
         </div>
@@ -109,46 +100,46 @@ title: Degradación de Plásticos • CBTis 271
       </div>
     </section>
 
-    <!-- 5 Metodología propuesta -->
+    <!-- 5 Metodología -->
     <section id="metodologia" class="section">
       <div class="container">
         <h2><span class="badge">5</span> Metodología propuesta</h2>
 
         <article class="step"><span class="step__number">1</span>
           <h3>Inventario de generación</h3>
-          <p>Contenedores etiquetados, pesaje semanal 18 semanas, cálculo per-cápita.</p>
+          <p>Contenedores etiquetados y pesaje semanal durante 18 semanas.</p>
         </article>
 
         <article class="step"><span class="step__number">2</span>
-          <h3>Ensayo de exposición natural</h3>
-          <p>30 placas de PET, PE-BD y PP en bastidores 45°, medición de temperatura y radiación diaria.</p>
+          <h3>Exposición natural</h3>
+          <p>30 placas de PET, PE-BD y PP en bastidores de 45°, con registro de temperatura y radiación.</p>
         </article>
 
         <article class="step"><span class="step__number">3</span>
           <h3>Caracterización analítica</h3>
-          <p>FTIR, microscopía óptica y ensayo de tracción cada 3 semanas; tamizado de partículas.</p>
+          <p>FTIR, microscopía óptica y ensayo de tracción cada 3 semanas; conteo de partículas desprendidas.</p>
         </article>
 
         <article class="step"><span class="step__number">4</span>
           <h3>Piloto de reciclaje irradiado</h3>
-          <p>Irradiar 5 kg de PET a 100 kGy en el ININ; comparar propiedades con reciclado convencional.</p>
+          <p>Irradiar 5 kg de PET a 100 kGy en el ININ; comparar propiedades con reciclaje convencional.</p>
         </article>
 
         <article class="step"><span class="step__number">5</span>
           <h3>Análisis estadístico</h3>
-          <p>ANOVA y modelo Arrhenius para extrapolar vida útil.</p>
+          <p>ANOVA y modelo Arrhenius para extrapolar la vida útil.</p>
         </article>
       </div>
     </section>
 
-    <!-- 6 Resultados esperados -->
+    <!-- 6 Resultados -->
     <section id="resultados" class="section section--alt">
       <div class="container">
-        <h2><span class="badge">6</span> Resultados esperados (predicción)</h2>
+        <h2><span class="badge">6</span> Resultados esperados</h2>
         <ul class="list-check">
           <li>Producción media: <strong>2.3 kg plástico/estudiante/semestre</strong>.</li>
           <li>Índice carbonilo PET: 0 → 0.34 en 12 semanas (R² = 0.91).</li>
-          <li>~14 000 microfragmentos &gt; 300 µm por kg de PET tras 18 semanas.</li>
+          <li>≈ 14 000 microfragmentos &gt; 300 µm por kg de PET tras 18 semanas.</li>
           <li>PET irradiado: 25 % más módulo elástico y menor amarillamiento.</li>
         </ul>
       </div>
@@ -158,9 +149,9 @@ title: Degradación de Plásticos • CBTis 271
     <section id="discusion" class="section">
       <div class="container">
         <h2><span class="badge">7</span> Discusión y análisis crítico</h2>
-        <p><strong>Clima local como catalizador:</strong> altas temperaturas aceleran la oxidación, pero también permiten fotocatálisis controlada si se integran reactores solares.</p>
-        <p><strong>Brecha infraestructura–especialidad:</strong> pese a la carrera de Transformación de Plásticos, el plantel carece de circuito cerrado de reciclaje; la planta piloto puede cerrar el “loop”.</p>
-        <p><strong>Irradiación como innovación:</strong> reduce defectos del reciclaje mecánico; costo ≈ 18 MXN/kg a escala piloto.</p>
+        <p><strong>Clima local:</strong> la alta radiación acelera la oxidación; también permite fotocatálisis controlada.</p>
+        <p><strong>Brecha infraestructura–especialidad:</strong> el plantel carece de circuito cerrado de reciclaje pese a la carrera de Plásticos.</p>
+        <p><strong>Irradiación:</strong> reduce defectos del reciclaje mecánico; costo ≈ 18 MXN/kg a escala piloto.</p>
       </div>
     </section>
 
@@ -171,8 +162,8 @@ title: Degradación de Plásticos • CBTis 271
         <ol class="target-list">
           <li>La degradación espontánea genera microplásticos con riesgos ecosistémicos.</li>
           <li>PET es el principal residuo y el más susceptible a fotodegradarse.</li>
-          <li>Reciclaje avanzado (irradiación, extrusión reactiva) mejora calidad y reduce subproductos tóxicos.</li>
-          <li>Un programa de gestión fortalecerá la formación técnica y reducirá la huella ecológica.</li>
+          <li>Reciclaje avanzado (irradiación, extrusión reactiva) mejora la calidad del material.</li>
+          <li>Un programa de gestión reducirá la huella ecológica y fortalecerá la formación técnica.</li>
         </ol>
       </div>
     </section>
@@ -183,13 +174,11 @@ title: Degradación de Plásticos • CBTis 271
         <h2><span class="badge">9</span> Recomendaciones</h2>
         <div class="table-wrapper">
           <table class="table">
-            <thead>
-              <tr><th>Horizonte</th><th>Acción</th><th>Actor responsable</th></tr>
-            </thead>
+            <thead><tr><th>Horizonte</th><th>Acción</th><th>Responsable</th></tr></thead>
             <tbody>
-              <tr><td>Corto&nbsp;(6&nbsp;meses)</td><td>Separación y pesaje semanal; capacitar brigadas.</td><td>Subdirección + Sociedad de Alumnos</td></tr>
-              <tr><td>Medio&nbsp;(1&nbsp;año)</td><td>Adquirir FTIR portátil y convenio con ININ.</td><td>Jefatura de Transformación de Plásticos</td></tr>
-              <tr><td>Largo&nbsp;(2-3&nbsp;años)</td><td>Publicar en congreso DGETI; ampliar programa.</td><td>Comité Ambiental CBTis 271</td></tr>
+              <tr><td>Corto (6 meses)</td><td>Separación y pesaje semanal; brigadas ecológicas.</td><td>Subdirección + Sociedad de Alumnos</td></tr>
+              <tr><td>Medio (1 año)</td><td>FTIR portátil y convenio ININ.</td><td>Jefatura de Transformación de Plásticos</td></tr>
+              <tr><td>Largo (2-3 años)</td><td>Publicar resultados y expandir a CBTis vecinos.</td><td>Comité Ambiental CBTis 271</td></tr>
             </tbody>
           </table>
         </div>
@@ -202,21 +191,22 @@ title: Degradación de Plásticos • CBTis 271
         <h2><span class="badge">10</span> Fuentes consultadas</h2>
         <ul class="sources">
           <li>CBTis 271 – datos de ubicación y especialidades.</li>
-          <li>Scielo México (2021) – “Indagación sobre la degradación de plásticos…”.</li>
-          <li>Plastics Technology México (2022) – “Degradación de los plásticos…”.</li>
-          <li>PLA Resin (2025) – “Degradación del plástico: impacto y soluciones”.</li>
-          <li>ININ / gob.mx (2023) – “Técnicas nucleares para optimizar el reciclaje…”.</li>
-          <li>CONACYT (2022) – Reporte sobre fitorremediación de microplásticos.</li>
+          <li>Scielo México (2021) – “Indagación sobre la degradación de plásticos…”</li>
+          <li>Plastics Technology México (2022) – “Degradación de los plásticos…”</li>
+          <li>PLA Resin (2025) – “Degradación del plástico: impacto y soluciones”</li>
+          <li>ININ / gob.mx (2023) – “Técnicas nucleares para optimizar el reciclaje…”</li>
+          <li>CONACYT (2022) – Fitorremediación de microplásticos.</li>
           <li>SEMARNAT (2023) – Inventario Nacional de Contaminación Plástica.</li>
         </ul>
       </div>
     </section>
+
   </main>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; <span id="year"></span> CBTis 271 – Cd. Victoria, Tamps.</p>
+      <p>&copy; <span id="year"></span> CBTis 271 – Cd. Victoria, Tamaulipas.</p>
       <div class="social">
         <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
